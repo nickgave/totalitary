@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "totalitary",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node --no-warnings --loader ts-node/esm main.ts"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickgave/totalitary.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nickgave/totalitary/issues"
+  },
+  "homepage": "https://github.com/nickgave/totalitary#readme"
+}
