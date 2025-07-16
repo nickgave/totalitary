@@ -5,10 +5,12 @@
   "description": "",
   "main": "main.ts",
   "scripts": {
-    "start": "node --no-warnings --loader ts-node/esm main.ts"
+    "build": "tsc",
+    "start:debug": "node --inspect-brk dist/main.js"
   },
   "devDependencies": {
-    "ts-node": "^10.9.1",
+    "source-map-support": "^0.5.21",
+    "ts-node": "^10.9.2",
     "typescript": "^5.0.0"
   },
   "repository": {
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/nickgave/totalitary/issues"
   },
-  "homepage": "https://github.com/nickgave/totalitary#readme"
+  "homepage": "https://github.com/nickgave/totalitary#readme",
+  "dependencies": {
+    "discord.js": "^14.21.0"
+  }
 }
