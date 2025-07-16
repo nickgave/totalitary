@@ -1,8 +1,8 @@
-# Discord Anarchy Bot
+# Totalitary Bot
 
 이 프로젝트는 **디스코드 Anarchy 서버** 전용 봇으로 만들어짐.
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 root/
@@ -17,6 +17,6 @@ root/
 └── README.md
 ```
 
-## 📬 Contact
+## Contact
 
 - **Maintainer**: nickgive
